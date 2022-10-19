@@ -12,6 +12,10 @@ div{
     float: left;
 }
 
+h1{
+    text-align: center;
+}
+
 #head{
     width: 100%;
     background-color: #00CCFF;
@@ -19,9 +23,6 @@ div{
     padding-bottom: 15px;
 }
 
-h1{
-    text-align: center;
-}
 
 #body{
     width: 100%;
@@ -31,19 +32,26 @@ h1{
     width: 100%;
 }
 
-#Menu{
-    background-color: #ff0000;
+    #mHaut{
+        background-color: rgb(64, 190, 70);
+        width: 175px;
+        height: 500px;
+    }
+
+
+
+h1.centre{
+    text-align: center;
+    padding-top: 400px;
+    padding-right: 50px;
+}
+
+#mBas{
+    background-color: rgb(190, 121, 204);
     width: 175px;
     height: 500px;
 }
 
-    h1.alignMenu{
-        padding-top: 200px;
-    }
-
-h1.centre{
-    padding-top: 150px;
-}
 
 #footer{
     width: 100%;
